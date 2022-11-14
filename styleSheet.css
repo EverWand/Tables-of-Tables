@@ -1,0 +1,126 @@
+/*-------GENERAL STYLES---------------------------------------*/
+
+/*Styles for the Page's Body*/
+body{
+    /*re-aligns the text on the page*/
+    text-align: center;
+    /*changes the way the sections are displayed*/
+    display: grid;
+
+}
+
+/*Styles for multiple sections [tables, table headers, and table data]*/
+table, th, td {
+    /*gives these sections a border*/
+    border: 1px solid;
+    /*re-aligns the text inside of these sections*/
+    text-align: center;
+
+}
+
+    /*specific styles for Tables*/
+table{
+    /*gives the section a background*/
+    background-color: ghostwhite;
+}
+
+    /*specific styles Table Headers*/
+th{
+    /*gives the section a background*/
+    background-color: darkgray;
+}
+
+    /*styles for images*/
+img{
+    /* changes the width of the image*/
+    width: 200px;
+    /* changes the height of the image*/
+    height: 200px;
+    /*Makes the image styles have a transition when changing to another style*/
+    transition: all 1S ease;
+
+}
+
+    /*styles for when user hovers over images*/
+img:hover{
+    /* changes the width of the image*/
+    width: 250px;
+    /* changes the height of the image*/
+    height: 250px;
+    /*makes a border for the section*/
+    border-style: solid;
+}
+
+
+/*-------ID STYLES---------------------------------------*/
+
+/* multiple section [introduction section and footer section]*/
+#welcomeEnvelope, footer{
+    /*makes a border for the section*/
+    border-style: solid;
+    /*gives the section a background*/
+    background-color:tan;
+    /*re-aligns the text in section*/
+    text-align:center;
+    /*givesthe section padding*/
+    padding:1%;
+}
+
+/*styles for the section that holds the tables*/
+#tableEvelope{
+    /*makes a border for the section*/
+    border-style: solid;
+    /*gives the section a background*/
+    background-color: bisque;
+    /*givesthe section padding*/
+    padding: 1%;
+    /*changes the way the sections are displayed*/
+    display: inline-table;
+}
+
+/*styles for the location annotation text*/
+#overlay{
+    /*makes a border for the section*/
+    border-style: solid;
+    /*re-aligns the text in section*/
+    text-align: center;
+    /*Changes the color of the section's text*/
+    color: white;
+    /*gives the section a background*/
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));
+}
+
+
+/*-------CLASS STYLES---------------------------------------*/
+
+/* style for the section that describes what the webste is for*/
+.descInline{
+    /*changes the way the section's content is displayed*/
+    display: flex;
+}
+
+/*style for the decoration lines in the introduction section*/
+.smallLine{
+    /*changes the width of the line*/
+    width:25%;
+    /*changes the height of the line*/
+    height:5px;
+}
+
+/*style for the empty cell in the corner of the table*/
+.fillCell{
+    /*give the background a color*/
+    background-color: black;
+}
+
+/*styles for the header bar.*/
+.HeaderBar{
+    /*give the background a color*/
+    background-color:rgba(0, 0, 0, 0.308);
+    /*gives the section padding*/
+    padding: 2px;
+    /*edits the section's top margin*/
+    margin-top: 5px;
+    /*edits the section's bottom margin*/
+    margin-bottom:5px;
+}
